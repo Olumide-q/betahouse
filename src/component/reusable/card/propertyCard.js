@@ -7,7 +7,7 @@ export default function PropertyCard({ myProps }) {
                 src={myProps.image}
                 alt='image'
                 />
-                <div className="absolute top-5 flex gap-[109px] lg:gap-[58px] xl:gap-[180px] 2xl:gap-[265px] px-[17px] text-white text-[13px] font-medium">
+                <div className="absolute top-5 flex gap-[109px] lg:gap-[58px] xl:gap-[180px] 2xl:gap-[245px] px-[17px] text-white text-[13px] font-medium">
                     <p className="bg-[#3D9970] px-[22px] py-[9px] rounded-sm">{myProps.feature}</p>
                     <p className="bg-[#D3D3D3B2] px-[22px] py-[9px] rounded-sm">{myProps.categories}</p>
                 </div>
