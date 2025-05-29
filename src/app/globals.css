@@ -1,6 +1,26 @@
 @import "tailwindcss";
 
-:root {
+
+@media (width > 970px) {
+.hero {
+  background-image: url('../image/Frame\ 9325.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10rem 3rem 6rem 3rem;
+  margin: auto;
+}
+}
+
+
+
+  .hero {
+    background-image: url('../image/Frame\ 9325.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -23,4 +43,4 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
